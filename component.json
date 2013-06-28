@@ -1,13 +1,16 @@
 {
     "name": "htmlparser",
     "version": "2.0.0",
-    "description": "Yet another Base64 transcoder in pure-JS",
-    "author": "Dan Kogai (https://github.com/dankogai)",
+    "description": "Forgiving HTML/XML/RSS Parser in JS for *both* Node and Browsers",
+    "author": "Chris Winberry <chris@winberry.net>",
     "keywords": [
-        "base64"
+        "html"
+        , "xml"
+        , "rss"
+        , "parser"
     ],
     "scripts": [
-        "base64.js"
+        "lib/htmlparser.js"
     ],
-    "main": "base64.js"
+    "main": "lib/htmlparser.js"
 }
